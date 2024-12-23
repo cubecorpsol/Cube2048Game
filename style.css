@@ -1,0 +1,130 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #faf8ef;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    background-color: #bbada0;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 430px;
+    height: 430px;
+}
+
+.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #776e65;
+}
+
+.tile-0 {
+    background-color: #beb7a4;
+}
+
+.tile-2 {
+    background-color: #ffe3b3;
+}
+
+.tile-4 {
+    background-color: #ffd180;
+}
+
+.tile-8 {
+    background-color: #ffb74d;
+    color: #f9f6f2;
+}
+
+.tile-16 {
+    background-color: #ff7043;
+    color: #f9f6f2;
+}
+
+.tile-32 {
+    background-color: #ff5722;
+    color: #f9f6f2;
+}
+
+.tile-64 {
+    background-color: #f44336;
+    color: #f9f6f2;
+}
+
+.tile-128 {
+    background-color: #ffeb3b;
+    color: #f9f6f2;
+}
+
+.tile-256 {
+    background-color: #ff9800;
+    color: #f9f6f2;
+}
+
+.tile-512 {
+    background-color: #ff5722;
+    color: #f9f6f2;
+}
+
+.tile-1024 {
+    background-color: #f44336;
+    color: #f9f6f2;
+}
+
+.tile-2048 {
+    background-color: #e91e63;
+    color: #f9f6f2;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #8f7a66;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 3px #776e65;
+}
+
+button:hover {
+    background-color: #776e65;
+}
+
+.score {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #776e65;
+}
+
+#game-over-message {
+    margin-top: 15px;
+    font-size: 18px;
+    color: red;
+}
