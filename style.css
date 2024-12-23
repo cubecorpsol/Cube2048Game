@@ -15,6 +15,16 @@ body {
     align-items: center;
 }
 
+.dev {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        background-color: #f1f1f1; /* Optional: To highlight the footer */
+        padding: 10px 0;
+        font-size: 14px;
+}
+
 .game-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
